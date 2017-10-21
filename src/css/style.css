@@ -1,0 +1,63 @@
+:root{
+  --shadow: 0px 3px 5px #222;
+  --bgColor1: firebrick;
+  --btnColor: darkred;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background: #333;
+  color: #333;
+}
+#title{
+  position: relative;
+  padding: 1em 0;
+  width: 100%;
+  text-align: center;
+  background: var(--bgColor1);
+  color: white;
+  font-size: 1.5em;
+  box-shadow: var(--shadow);
+}
+.container{
+  margin: 0 auto;
+  width: 1024px;
+  padding: 2em;
+}
+#thing{
+  position: relative;
+  min-height: 400px;
+  padding: 3em;
+  padding: 1%;
+  font-size: 1.5em;
+  text-align: center;
+  color: #fff;
+}
+
+#thing p{
+  text-align: center;
+  padding: 0 20%;
+}
+#input_wrap input{
+  padding: 1em 1em;
+  font-size: 1em;
+  background: #444;
+  border: none;
+  outline: none;
+  caret-color: white;
+  color: white;
+  margin-bottom: 1em;
+  box-shadow: var(--shadow);
+}
+
+.btn{
+  font-size: 1.25rem;
+  padding: 1rem 2rem;
+  border: none;
+  background: var(--btnColor);
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
